@@ -37,7 +37,7 @@ let numberOfFaces = 5;
             function gameOver() {
                 alert("Game Over!");
                 document.body.removeEventListener("click", gameOver);
-                theRightSide.lastChild.removeEventListener("click", nextLevel);
+                theLeftSide.lastChild.removeEventListener("click", nextLevel);
             }
 
             restart.onclick = function newGame(event) {
