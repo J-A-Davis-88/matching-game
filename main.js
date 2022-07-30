@@ -4,7 +4,7 @@ let numberOfFaces = 5;
 
             function generateFaces() {
                 for (let i = 0; i < numberOfFaces; i ++) {
-                    const face = document.createElement("img");
+                    const face = document.createElement('img');
                     face.src = 'https://as2.ftcdn.net/v2/jpg/00/83/95/55/1000_F_83955554_GJkpFVDvAhZ0A4TYjjZYU2zq5fflL3dS.jpg';
                     randomTop = Math.floor(Math.random() * 400 + 1);
                     randomLeft = Math.floor(Math.random() * 400 + 1);
@@ -22,7 +22,7 @@ let numberOfFaces = 5;
                 document.body.addEventListener("click", gameOver);
             }
 
-            function nextLevel() {
+            function nextLevel(event) {
                 event.stopPropagation();
                 numberOfFaces += 5;
                 
