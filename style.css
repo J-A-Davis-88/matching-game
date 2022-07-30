@@ -1,0 +1,29 @@
+img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+div {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
+
+#rightSide {
+    left: 500px;
+    border-left: 1px solid;
+}
+
+body {
+    background: rgb(26, 26, 71);
+    font-family:Papyrus, copperplate, fantasy;
+}
+
+h1 {
+    color:rgb(199, 241, 9);
+}
+
+p {
+    color:rgb(84, 161, 117);
+}
